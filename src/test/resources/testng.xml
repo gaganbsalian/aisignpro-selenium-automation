@@ -1,0 +1,10 @@
+<suite name="AiSignPro Test Suite">
+    <listeners>
+        <listener class-name="com.aisignpro.utils.ExtentReportManager"/>
+    </listeners>
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.aisignpro.tests.AgreementWorkFlowTest"/>
+        </classes>
+    </test>
+</suite>
